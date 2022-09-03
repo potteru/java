@@ -1,0 +1,10 @@
+package controlStatements;
+
+public class Example1_forLopp6_printEvenNumFrom_10_to_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

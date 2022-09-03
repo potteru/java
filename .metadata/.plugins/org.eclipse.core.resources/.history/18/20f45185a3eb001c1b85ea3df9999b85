@@ -1,0 +1,10 @@
+package controlStatements;
+
+public class Example1_forLopp3_printEvenNumFrom_2_to_10 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

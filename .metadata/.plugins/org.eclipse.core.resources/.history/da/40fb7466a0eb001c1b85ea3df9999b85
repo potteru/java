@@ -1,0 +1,10 @@
+package controlStatements;
+
+public class SwitchStatements_1 {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

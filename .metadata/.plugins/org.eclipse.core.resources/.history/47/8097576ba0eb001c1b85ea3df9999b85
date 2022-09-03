@@ -1,0 +1,13 @@
+package controlStatements;
+
+public class SwitchStatements_1 {
+
+	public static void main(String[] args) {
+
+		switch("AD") {
+		case "":
+			System.out.println("Running AD Code");
+		}
+	}
+
+}

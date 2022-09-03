@@ -1,0 +1,20 @@
+package java_8_newFeatures;
+
+public class MethodreferenceDemo {
+
+	public static void main(String[] args) {
+		FunctionalInterfaceDemo reference = Test::testImplementation;
+		reference.functionalabmethod();
+	// if we dont't have Test class method to reference then use below code 
+		FunctionalInterfaceDemo ref = () -> System.out.println("This is Used as Method reference");
+		ref.functionalabmethod();
+	
+	}
+
+
+}
+class Test{
+	public static void testImplementation() {
+		System.out.println("Hello test implementation");
+	}
+}

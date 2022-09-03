@@ -1,0 +1,18 @@
+package basic_Programs_with_Java_8_New_Features;
+
+import java.util.Scanner;
+import java.util.function.Predicate;
+
+public class Even_and_Odd_Numbers {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter A number to find Even OR Odd: ");
+		int nextInt = scan.nextInt();
+		
+		Predicate<Integer> p= () -> {
+			return p.test(10);
+		};
+	}
+
+}

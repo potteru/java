@@ -1,0 +1,59 @@
+package arrays;
+
+/*Find minimum element from sorted and rotated array
+ *Example: 1
+ *arr = {5,6,1,2,3,4};
+ *min = 1
+ *
+ * Example 2:
+ * Arr = {23,34,56,12,09,87};
+ * min = 9;
+ * you may assume no duplicate exits in the array
+ * Method 1: Traverse an array
+ * 
+ * int min=arr[0];
+ * for(int i=0;i<arr.length;i++){
+ * 	if(arr[i] < min){
+ * 		min=arr[i]
+ * 	}
+ * }
+ * 
+ * Method 2: using binary search
+ */
+public class FindMinElementFromSortedAndRotatedArray {
+	
+	public static int findMin(int[] array) {
+		
+		if(array.length == 1) {
+			return array[0];
+		}
+		int start =0;
+		int end = array.length - 1;
+		
+		if(array[0] < array[end]) {
+			return array[0];
+		}
+		
+		while(start <= end) {
+			int mid = (start+end)/2;
+			if(start < mid && array[mid] < array[mid-1]) {
+				return array[mid];
+			}
+			else if(end > mid && array[mid+1] < array[mid]){
+				return array[mid+1];
+			}
+			else if(array[end] > array[mid]) {
+				end = mid-1;
+			}else {
+				start = mid +1;
+			}
+		}
+		return -1;
+	}
+	
+	public static void main(String[] args) {
+		int[] array = {8,9,5,6,7,3,2,5,0};
+		System.out.println(findMin(array));
+	}
+
+}

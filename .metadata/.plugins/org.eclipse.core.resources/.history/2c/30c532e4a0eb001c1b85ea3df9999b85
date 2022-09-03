@@ -1,0 +1,28 @@
+package controlStatements;
+
+public class SwitchStatements_1 {
+
+	public static void main(String[] args) {
+
+		switch("AD") {
+		case "BI":
+			System.out.println("Running AD Code");
+			break;
+		case "CD":
+			System.out.println("Running AD Code");
+			break;
+		case "DE":
+			System.out.println("Running AD Code");
+			break;
+		case "EF":
+			System.out.println("Running AD Code");
+			break;
+		case "FG":
+			System.out.println("Running AD Code");
+			break;
+		default :
+			System.out.println("Invalid input");
+		}
+	}
+
+}

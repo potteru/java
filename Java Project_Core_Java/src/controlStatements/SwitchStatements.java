@@ -1,0 +1,34 @@
+package controlStatements;
+
+public class SwitchStatements {
+
+	public static void main(String[] args) {
+
+		switch(30) {
+		case 10 :
+			System.out.println("Today is Monday");
+			break;
+		case 20:
+			System.out.println("Today is Tuesday");
+			break;
+		case 30:
+			System.out.println("Today is Wednesday");
+			break;
+		case 40:
+			System.out.println("Today is Thursday");
+			break;
+		case 50:
+			System.out.println("Today is Friday");
+			break;
+		case 60 : 
+			System.out.println("Today is Saturday");
+			break;
+		case 70:
+			System.out.println("Today is Sunday");
+			break;
+		default : 
+			System.out.println("In put not matched");
+		}
+	}
+
+}

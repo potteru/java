@@ -1,0 +1,15 @@
+package controlStatements;
+
+public class Example2_whileLoop3_printOddNumFrom_1_to_9 {
+
+	public static void main(String[] args) {
+
+		int i =1;
+		
+		while(i < 10) {
+			System.out.println(i);
+			i=i+2;
+		}
+	}
+
+}

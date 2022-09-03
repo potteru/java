@@ -1,0 +1,10 @@
+package controlStatements;
+
+public class Example1_forLoop8_PrintMsgMultipleTimes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

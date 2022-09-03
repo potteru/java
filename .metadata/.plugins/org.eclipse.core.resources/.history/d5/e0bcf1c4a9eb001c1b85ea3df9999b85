@@ -1,0 +1,10 @@
+package controlStatements;
+
+public class Example2_whileLoop6_printOddNumFrom_9_to_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

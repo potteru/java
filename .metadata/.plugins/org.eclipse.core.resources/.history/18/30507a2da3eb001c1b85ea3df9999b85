@@ -1,0 +1,10 @@
+package controlStatements;
+
+public class Example1_forLoop2_print_Num_From_5_to_20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package controlStatements;
+
+public class Example1_forLopp4_printOddNumFrom_1_to_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

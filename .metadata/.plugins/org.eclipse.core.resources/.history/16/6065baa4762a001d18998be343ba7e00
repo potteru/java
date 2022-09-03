@@ -1,0 +1,9 @@
+package java8Features;
+
+public interface InterefaceWithStaticethodDemo {
+	
+	public static void m1() {
+		System.out.println("Interface with static method ");
+	}
+
+}

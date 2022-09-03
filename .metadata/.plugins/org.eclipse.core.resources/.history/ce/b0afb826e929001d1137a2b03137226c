@@ -1,0 +1,14 @@
+package java_basic_programs;
+
+public class Swap_two_Strings_without_3rd_variable {
+
+	public static void main(String[] args) {
+
+		String str = "abc";
+		String str1 = "ABC";
+		
+		str = str+str1;
+		System.out.println(str);
+	}
+
+}

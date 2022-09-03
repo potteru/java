@@ -1,0 +1,28 @@
+package controlStatements;
+
+public class SwitchStatements_1 {
+
+	public static void main(String[] args) {
+
+		switch("AB") {
+		case "AB":
+			System.out.println("Running AB Code");
+			break;
+		case "CD":
+			System.out.println("Running CD Code");
+			break;
+		case "DE":
+			System.out.println("Running DE Code");
+			break;
+		case "EF":
+			System.out.println("Running EF Code");
+			break;
+		case "FG":
+			System.out.println("Running FG Code");
+			break;
+		default :
+			System.out.println("Invalid input");
+		}
+	}
+
+}

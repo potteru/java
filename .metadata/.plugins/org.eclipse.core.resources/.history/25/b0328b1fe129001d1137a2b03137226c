@@ -1,0 +1,10 @@
+package maths_programming;
+
+public class Print_Array_without_loop {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
